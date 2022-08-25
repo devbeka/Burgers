@@ -1,0 +1,42 @@
+.imageContainer {
+  min-width: 150px;
+  height: 150px;
+}
+.burgerCard {
+  color: #2e2e2e;
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  overflow: hidden;
+  background: rgb(243, 243, 243);
+  padding: 10px;
+  border-radius: 5px;
+  width: 100%;
+  box-shadow: rgba(0, 0, 0, 0.043) 0px 0px 5px 3px;
+  transition: 0.3s;
+}
+
+@media (max-width: 520px) {
+  .burgerCard {
+    flex-wrap: wrap;
+  }
+  .imageContainer {
+    margin: 0 auto;
+  }
+}
+
+.burgerCard:hover {
+  background-color: #ccc;
+}
+
+.burgerCard h3 {
+  margin-top: 0;
+}
+.singleBurger {
+  max-width: 600px;
+  margin: 0 auto;
+}
+.imageItem{
+  max-width: 200px;
+  margin: 0 auto;
+}
